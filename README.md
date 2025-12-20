@@ -28,7 +28,12 @@ Development stack :
 
 -[Next-Intl](https://next-intl.dev/) - Gestion de la traduction
 
-App deployed on Vercel : [https://ovintrack-backend.vercel.app/](https://ovintrack-backend.vercel.app/) => coming soon
+## Configuration
+
+Un fichier `.env` est utilisé pour configurer les variables d'environnement.
+Il doit contenir les variables suivantes :
+
+-`DATABASE_URL="file:./data/dev.db"`
 
 ## Description
 
@@ -40,13 +45,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
